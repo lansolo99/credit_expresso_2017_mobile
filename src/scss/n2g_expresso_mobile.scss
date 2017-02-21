@@ -272,12 +272,16 @@ body {
       }
       span{
         font-size: 4vw;
+
+        &.amount{
+          white-space: nowrap;
+        }
       }
       strong{
-        font-size: 4.8vw;
+        font-size: 5.5vw;
 
         &.engagement{
-          font-size: 5.3vw;
+          font-size: 6vw;
         }
       }
 
@@ -409,8 +413,8 @@ body {
       left: 4vw;
       width: 8.5vw;
       height: 8.5vw;
-      background-image: url('../img/picto_wcb.png');
-      background-image: -webkit-image-set( url('../img/picto_wcb.png') 1x, url('../img/picto_wcb-2x.png') 2x );
+      background-image: url("https://static.societegenerale.fr/PRI/Repertoire_par_type_de_contenus/Type_de_contenu/01-Pages/02-promo/2015/12/c739/c739-credit-conso-expresso/images/picto_agence.png");
+      background-image: -webkit-image-set(url("https://static.societegenerale.fr/PRI/Repertoire_par_type_de_contenus/Type_de_contenu/01-Pages/02-promo/2015/12/c739/c739-credit-conso-expresso/images/picto_agence.png") 1x, url("https://static.societegenerale.fr/PRI/Repertoire_par_type_de_contenus/Type_de_contenu/01-Pages/02-promo/2015/12/c739/c739-credit-conso-expresso/images/picto_agence-2x.png") 2x);
       background-size: 100%;
     }
 
